@@ -105,10 +105,10 @@ button:hover {
 }
 
 @media (max-width: 865px) {
-  h1 {
+  /*h1 {
     width: 100%;
   }
-
+*/
   #main-content {
     width: 100%;
   }
