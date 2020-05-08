@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+
+<head>
+  <title>QT's Paintings</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<div id="main-content">
+  <h1><i>Painting Request Form</i></h1>
+  <div id="form-text">
+    <p>Welcome! I'm Quinton, and I make 6x6in. paintings of nature scenes. As a developing painter, I'd love to keep improving on my skill and use it to help others.</p>
+
+    <p>Know someone who could really use some art in their life? Fill out a painting request!</p>
+
+    <form id="survey-form">
+      <div class="form-item">
+        <label id="name-label" for="name">Name</label><br>
+        <input class="input" type="text" name="name" id="name" placeholder="Enter your name" required />
+      </div>
+
+      <div class="form-item">
+        <label id="email-label" for="email">Email</label><br>
+        <input class="input" type="email" name="email" id="email" placeholder="Enter your email" required />
+      </div>
+
+      <div class="form-item">
+        <label id="number-label" for="number">Phone #</label><br>
+        <input class="input" type="number" name="phone" id="number" placeholder="1234567891" min="0" max="9999999999" required />
+      </div>
+
+      <div class="form-item">
+        <label>What is the recipient's favorite color?</label> <br>
+        <input class="input" type="text" name="color" id="color" placeholder="Blue" />
+      </div>
+
+      <div class="form-item">
+        <label>What kind of painting would you like?</label><br>
+        <textarea class="input large-input" id="painting-description" placeholder="Enter your description here"></textarea>
+      </div>
+
+      <div class="form-item">
+        <label>Any comments or suggestions?</label> <br>
+        <textarea class="input large-input" id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here"></textarea>
+      </div>
+
+      <div class="form-item btn">
+        <button type="submit" id="submit" class="submit-button">
+          Submit
+        </button>
+      </div><br>
+    </form>
+  </div>
+</div>
+</html>

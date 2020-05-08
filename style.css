@@ -1,0 +1,124 @@
+:root {
+  --eblue: #30c9e8;
+  --ored: #ff1800;
+}
+
+body {
+  background-color: var(--eblue);
+  padding: 30px;
+}
+
+h1 {
+  background-color: var(--ored);
+  margin-left: -6%;
+  margin-right: -6%;
+  padding: 30px;
+  text-align: center;
+  font-family: "Carter One", cursive;
+  font-size: 40px;
+  color: white;
+  border-radius: 10px;
+}
+
+label {
+  background-color: var(--ored);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 80px;
+  padding-right: 70px;
+  font-size: 1.3em;
+  margin-left: -15%;
+  color: white;
+  border-radius: 10px;
+}
+
+#main-content {
+  background-color: white;
+  justify-content: center;
+  margin: auto;
+  width: 770px;
+  border-radius: 20px;
+}
+
+#survey-form {
+}
+
+#form-text {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: "Carter One", cursive;
+  font-size: 1.2em;
+}
+
+.form-item {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  height: auto;
+}
+
+.input {
+  margin-top: 40px;
+  font-size: 1.1em;
+  font-family: "Carter One", cursive;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.large-input {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100px;
+}
+
+.btn {
+  text-align: center;
+}
+button {
+  background: var(--ored);
+  border: 3px solid var(--ored);
+  padding: 10px 13px;
+  color: white;
+  font-family: "Carter One", cursive;
+  font-size: 0.9em;
+  border-radius: 10px;
+}
+
+button:hover {
+  animation-name: background-color;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes background-color {
+  100% {
+    background-color: #ff6a5a;
+    border: 3px solid #ff6a5a;
+  }
+}
+
+@media (max-width: 865px) {
+  h1 {
+    width: 100%;
+  }
+
+  #main-content {
+    width: 100%;
+  }
+
+  label {
+    padding-left: 60%;
+    padding-right: 60%;
+    margin-left: -15%;
+    margin-right: -15%;
+    font-size: 1.3em;
+    width: 100%;
+  }
+}
