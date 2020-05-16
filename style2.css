@@ -1,0 +1,207 @@
+:root {
+  --eblue: #30c9e8;
+  --ored: #ff1800;
+}
+
+body {
+  background-color: var(--eblue);
+  font-size: 30px;
+}
+
+h1 {
+  background-color: var(--ored);
+  margin-top: 30px;
+  margin-left: -3%;
+  margin-right: -3%;
+  padding: 30px;
+  text-align: center;
+  font-family: "Carter One", cursive;
+  font-size: 100px;
+  color: white;
+  border-radius: 10px;
+}
+
+#survey-form {
+  position: relative;
+  align-items: center;
+}
+
+label {
+  position: absolute;
+  display: block;
+  background-color: var(--ored);
+  font-size: 2em;
+  color: white;
+  border-radius: 10px;
+  width: 132%;
+  text-align: center;
+  left: -111px;
+}
+
+#main-content {
+  background-color: white;
+  justify-content: center;
+  margin: auto;
+  width: 90%;
+  border-radius: 20px;
+}
+
+#form-content {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: "Carter One", cursive;
+  font-size: 1.2em;
+}
+
+.input-container {
+  margin-top: 140px;
+  height: 165px;
+}
+
+.two-line-container {
+  margin-top: 250px;
+  height: 165px;
+}
+
+.large-two {
+  height: 380px;
+}
+
+.input {
+  display: block;
+  margin: 0 auto;
+  font-size: 1.4em;
+  font-family: "Carter One", cursive;
+  text-align: center;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.large-input {
+  width: 100%;
+  height: 295px;
+}
+
+.btn {
+  text-align: center;
+}
+button {
+  background: var(--ored);
+  border: 3px solid var(--ored);
+  padding: 10px 13px;
+  color: white;
+  font-family: "Carter One", cursive;
+  font-size: 1.8em;
+  border-radius: 10px;
+}
+
+button:hover {
+  animation-name: background-color;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes background-color {
+  100% {
+    background-color: #ff6a5a;
+    border: 3px solid #ff6a5a;
+  }
+}
+
+@media (min-width: 641px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1025px) {
+  body {
+    font-size: initial;
+    padding: 30px;
+  }
+
+  h1 {
+    margin-left: -6%;
+    margin-right: -6%;
+    font-size: 40px;
+  }
+
+  #survey-form {
+    position: static;
+    align-items: initial;
+  }
+
+  #main-content {
+    width: 770px;
+    justify-content: initial;
+  }
+
+  label {
+    position: initial;
+    text-align: initial;
+    width: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 80px;
+    padding-right: 70px;
+    font-size: 1.3em;
+    margin-top: 35px;
+    margin-left: -15%;
+    left: initial;
+  }
+
+  .input-container {
+    margin-top: 0px;
+    height: initial;
+  }
+
+  .input {
+    display: initial;
+    text-align: initial;
+    margin: 0;
+    font-size: 1.1em;
+    font-family: "Carter One", cursive;
+    
+  }
+
+  #number-label {
+    width: 110px;
+  }
+
+  #color-label {
+    width: 460px;
+  }
+
+  #painting-label {
+    width: 475px;
+  }
+
+  #comment-label {
+    width: 380px;
+  }
+
+  .two-line-container {
+    margin-top: initial;
+    height: initial;
+  }
+
+  .large-two {
+    height: initial;
+  }
+
+  .large-input {
+    width: 100%;
+    height: 100px;
+  }
+
+  button {
+    font-size: 0.9em;
+    margin-top: 50px;
+  }
+}
