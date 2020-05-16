@@ -16,7 +16,7 @@ h1 {
   padding: 30px;
   text-align: center;
   font-family: "Carter One", cursive;
-  font-size: 100px;
+  font-size: 76px;
   color: white;
   border-radius: 10px;
 }
@@ -115,9 +115,7 @@ button:hover {
 }
 
 @media (min-width: 641px) {
-  h1 {
-    font-size: 40px;
-  }
+
 }
 
 @media (min-width: 1025px) {
